@@ -45,6 +45,7 @@ nav li a{
     justify-content: center;
     position: relative;
     z-index: -10;
+    height: 100vh;
 }
 
 .picture::after{
@@ -198,9 +199,13 @@ footer{
 /*Media Query*/
 @media screen and (max-width:600px){
     .square{
-        width: 60%;
+        width: 100%;
     }
     .neomrphism{
-        width: 60%;
+        width: 100%;
+    }
+    .about-text p{
+        width: auto;
+        margin-top: 50px;
     }
 }
